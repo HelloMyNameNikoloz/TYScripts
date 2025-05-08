@@ -1,5 +1,0 @@
-# Ignore only image files in specific folders
-images/*.jpg
-images/*.png
-output_images/*.jpg
-output_images/*.png
