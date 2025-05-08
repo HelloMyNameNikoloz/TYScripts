@@ -1,5 +1,23 @@
-# Ignore only image files in specific folders
-images/*.jpg
-images/*.png
-output_images/*.jpg
-output_images/*.png
+# Ignore all image files everywhere
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments (optional)
+env/
+venv/
+.venv/
+
+# Ignore system-specific files (optional but helpful)
+.DS_Store
+Thumbs.db
