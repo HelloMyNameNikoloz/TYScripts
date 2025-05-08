@@ -21,3 +21,4 @@ venv/
 # Ignore system-specific files (optional but helpful)
 .DS_Store
 Thumbs.db
+*.ps1
