@@ -6,14 +6,14 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageChops, ImageOps
 # === CONFIGURATION ===
 INPUT_FOLDER = 'images'
 OUTPUT_FOLDER = 'output_images'
-FONT_PATH = './fonts/bpg_extrasquare_mtavruli_2009.ttf'
+FONT_PATH = './fonts/ArefRuqaa-Bold.ttf'
 
 # Text settings
 #LINE1_TEXT = 'Deutsche Lieder'
-LINE1_TEXT = 'ტოპ მუსიკა'
+LINE1_TEXT = 'Nasheed'
 # LINE1_TEXT = 'ბედნიერი ერი'
-LINE2_TEXT = '2025'
-BASE_FONT_SIZE = 140
+LINE2_TEXT = 'Playlist'
+BASE_FONT_SIZE = 200
 LINE_SPACING = 10
 
 # File size thresholds (in bytes)

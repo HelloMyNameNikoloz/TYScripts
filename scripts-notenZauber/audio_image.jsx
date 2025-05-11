@@ -28,8 +28,20 @@
     }
 
     // 5) Run in order
+    // Delay function for ExtendScript (1 second = 1000 ms)
+    function sleep(ms) {
+        var start = new Date().getTime();
+        while (new Date().getTime() < start + ms) {
+            // Busy wait
+        }
+    }
+
     $.evalFile(audioScript);  // first: random audio placement
+
+    sleep(1000);  // wait for 1 second
+
     $.evalFile(imageScript);  // second: image stretch & scale
+
 
     
 })();
